@@ -10,6 +10,7 @@ public class Main_AnoBissexto {
         
         //OBJETO TIPO SCANNER
         Scanner entrada = new Scanner(System.in);
+        
         //VARIAVEIS
         int ano;
         int opcao;
