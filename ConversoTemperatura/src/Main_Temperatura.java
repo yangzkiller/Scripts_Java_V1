@@ -7,9 +7,10 @@ import java.util.Scanner;
  */
 public class Main_Temperatura {
     public static void main(String[] args) {
-
+        
         //OBJETO TIPO SCANNER
         Scanner entrada = new Scanner(System.in);
+
         //VARIAVEIS
         double graus_C, graus_F;
         int opcao;
