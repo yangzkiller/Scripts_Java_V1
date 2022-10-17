@@ -7,7 +7,8 @@ import java.util.Scanner;
  * e em seguida informe se este ano é ou não bissexto. 
  */
 public class main {
-        public static void main(String[] args) {
+
+    public static void main(String[] args) {
         //OBJETO TIPO SCANNER
         Scanner entrada = new Scanner(System.in);
 
@@ -56,7 +57,6 @@ public class main {
                 System.out.println("      --> PROGRAMA ENCERRADO <--");
                 System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
                 sair = false;
-            
             //ERRO
             }else {
                 System.out.println("        !ERRO! Entrada Inválida");
