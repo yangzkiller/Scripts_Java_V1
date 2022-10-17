@@ -1,8 +1,7 @@
 {
-    "java.project.sourcePaths": [
-        "Scripts_Java_V1/ConversoTemperatura/src",
-        "Scripts_Java_V1/AnoBissexto/src",
-        "AnoBissexto/src",
-        "Scripts_Java_V1/AnoBissexto/.vscode"
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
     ]
 }

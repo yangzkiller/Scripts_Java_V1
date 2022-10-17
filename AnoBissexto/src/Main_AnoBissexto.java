@@ -5,10 +5,10 @@ import java.util.Scanner;
  * Programa que peça um número correspondente a um determinado ano
  * e em seguida informe se este ano é ou não bissexto. 
  */
-public class Main {
+public class Main_AnoBissexto {
     public static void main(String[] args) {    
-        try (
-        //OBJETO TIPO SCANNER
+        
+        try (//OBJETO TIPO SCANNER
         Scanner entrada = new Scanner(System.in)) {
             //VARIAVEIS
             int ano;
@@ -18,7 +18,7 @@ public class Main {
             System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
             System.out.println("  --> CALCULADORA DE ANO BISSEXTO <--");
             System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
-                
+                    
             //LAÇO
             boolean sair = true;
             while (sair == true) {
@@ -32,7 +32,7 @@ public class Main {
                 System.out.print("Digite uma opção: ");
                 opcao = entrada.nextInt();
                 System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
-                    
+                        
                 //ESTRUTURA CONDICIONAL - MENU
                 //OPÇÃO - 1
                 if (opcao == 1) {
@@ -49,13 +49,13 @@ public class Main {
                         System.out.println("--> Não é Bissexto <--");
                         System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
                     }
-                    
+                        
                 //OPÇÃO - 2
                 }else if (opcao == 2) {
                     System.out.println("      --> PROGRAMA ENCERRADO <--");
                     System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
                     sair = false;
-                        
+                            
                 //ERRO
                 }else {
                     System.out.println("        !ERRO! Entrada Inválida");
@@ -63,6 +63,8 @@ public class Main {
                 }
             }
         }
-    }       
-} 
-
+    }
+}
+     
+        
+ 
