@@ -50,10 +50,10 @@ public class Main_Geometrico {
                 //COMANDO DE SAIDA DE DADOS
                 System.out.format("A área do quadrado: %.2f \n", area);
                 System.out.format("O dobro da área do quadrado: %.2f \n", area*2);
-                System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
-
+                System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");     
+            }
             //OPÇÃO - 2
-            }else if (opcao == 2) {
+            else if (opcao == 2) {
                 //COMANDO DE ENTRADA/SAIDA DE DADOS
                 System.out.print("Digite o raio do circulo: "); 
                 raio = entrada.nextFloat(); 
@@ -66,9 +66,9 @@ public class Main_Geometrico {
                 //COMANDO DE SAIDA DE DADOS
                 System.out.printf("A área do circulo é: %.2f \n", area);
                 System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
-
+            }
             //OPÇÃO - 3
-            }else if (opcao == 3) {
+            else if (opcao == 3) {
                 //COMANDOS DE SAIDA/ENTRADA DE DADOS
                 System.out.println("---------Digite o valor dos lados---------");
                 System.out.print("lado - 1: ");
@@ -101,16 +101,16 @@ public class Main_Geometrico {
                 if (lado!=lado_2  && lado!=lado_3 && lado_2!=lado_3) {
                     System.out.println("Do tipo Escaleno");
                     System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
-                }
-        
-            //OPÇÃO - 4    
-            }else if (opcao == 4) {
+                }   
+            }
+            //OPÇÃO - 4
+            else if (opcao == 4) {
                 System.out.println("      --> PROGRAMA ENCERRADO <--");
                 System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
-                sair = false;
-
-            //ERRO    
-            }else {
+                sair = false;  
+            }
+            //ERRO
+            else {
                 System.out.println("        !ERRO! Entrada Inválida");
                 System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
             }

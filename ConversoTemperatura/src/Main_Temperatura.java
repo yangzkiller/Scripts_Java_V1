@@ -48,9 +48,9 @@ public class Main_Temperatura {
                 //COMANDO DE SAIDA DE DADOS
                 System.out.format("A temperatura é: %.0f°F \n", graus_F);
                 System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
-
+            }
             //OPÇÃO - 2
-            }else if (opcao == 2) {
+            else if (opcao == 2) {
                 //COMANDO DE SAIDA/ENTRADA DE DADOS
                 System.out.print("Digite a temperatura: "); 
                 graus_F = entrada.nextDouble(); 
@@ -63,15 +63,15 @@ public class Main_Temperatura {
                 //COMANDO DE SAIDA DE DADOS
                 System.out.format("A temperatura é: %.0f°C \n", graus_C);
                 System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
-
+            }
             //OPÇÃO - 3
-            }else if (opcao == 3) {
+            else if (opcao == 3) {
                 System.out.println("      --> PROGRAMA ENCERRADO <--");
                 System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
                 sair = false;
-            
+            }
             //ERRO
-            }else {
+            else {
                 System.out.println("        !ERRO! Entrada Inválida");
                 System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
             }

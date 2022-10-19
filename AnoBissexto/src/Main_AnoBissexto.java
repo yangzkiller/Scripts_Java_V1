@@ -50,15 +50,15 @@ public class Main_AnoBissexto {
                     System.out.println("--> Não é Bissexto <--");
                     System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
                 }
-                        
+            }
             //OPÇÃO - 2
-            }else if (opcao == 2) {
+            else if (opcao == 2) {
                 System.out.println("      --> PROGRAMA ENCERRADO <--");
                 System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
                 sair = false;
-                            
+            }
             //ERRO
-            }else {
+            else {
                 System.out.println("        !ERRO! Entrada Inválida");
                 System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
             }
