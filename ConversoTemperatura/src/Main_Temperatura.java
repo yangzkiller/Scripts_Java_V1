@@ -49,6 +49,7 @@ public class Main_Temperatura {
                 System.out.format("A temperatura é: %.0f°F \n", graus_F);
                 System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
             }
+            
             //OPÇÃO - 2
             else if (opcao == 2) {
                 //COMANDO DE SAIDA/ENTRADA DE DADOS
